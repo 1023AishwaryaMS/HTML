@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lession3</title>
+    <style>
+        table, tr, td, th {
+        border: 2px solid black;
+        border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th colspan="2">Month</th>
+            <th>Amount</th>
+        </tr>
+         </thead>
+
+        <tbody>
+    
+        <tr>
+            <th>Jan</th>
+            <td colspan="2">10000</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Feb</th>
+            <td rowspan="3">20000</td>
+        </tr>
+        <tr>
+            <th>Mar</th>
+            <td>30000</td>
+        </tr>
+        <tr>
+            <th>April</th>
+            <td>50000</td>
+        </tr>
+    </tbody>
+        <tfoot>
+            <th>Total</th>
+            <th>11000</th>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>school time table</h1>
+    <table border="2">
+        <tr>
+            <td colspan="6">Time Table</td>
+            <!-- <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+        <tr>
+            <td rowspan="6">Hours</td>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thur</td>
+            <td>Fri</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td colspan="5">Lunch</td>
+            <!-- <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td> -->
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td colspan="2" rowspan="2">Projects</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+        </tr>
+    </table>
+
+
+
+</body>
+</html>
+
+<hr>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>State of Health</h1>
+    <table>
+        <!-- <colgroup>
+        <col span="3" style="background-color: aqua;"> 
+        </colgroup> -->
+
+        <!-- <colgroup>
+        <col span="1"> <col span="3" style="background-color: yellow;">
+        
+        </colgroup> -->
+        
+      <colgroup>
+        <col span="1">
+        <col span="1" style="background-color: blue;">
+        <col span="">
+        <col span="" style="background-color: blue;">
+    </colgroup>
+        <tr>
+            <td rowspan="2">State of Health</td>
+            <td    style="background-color: white;" colspan="2">Fasting Value</td>
+            <td style="background-color: white;">After Eating</td>
+        </tr>
+        <tr>
+            <td>Minimunm</td>
+            <td>Maximum</td>
+            <td>2hours after eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>80</td>
+            <td>165</td>
+            <!-- can hide data -->
+            <td style="visibility: hidden">Less than 150</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>90</td>
+            <td>188</td>
+            <td> -> 140</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>80</td>
+            <td>132</td>
+            <td>Less than 143</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<br><br><hr>
+
+<!-- figure and figcaption -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Fig caption and img src
+    </h1>
+    <figure style="border: 2;">
+        <img src="https://source.unsplash.com/random/?animal" alt="pic" width="400" height="450">
+        <figcaption>Hey, There! How are you?</figcaption>
+    </figure>
+
+    <hr><hr>
+    <img src="https://source.unsplash.com/random/?animal" alt="pic" width="400" height="450">
+    <br>
+    <caption>Hey, There! How are you?</caption>
+</body>
+</html>

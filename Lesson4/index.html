@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        
+    html {
+    scroll-behavior: smooth;
+    }  
+    
+    .box1{
+    background-color: lightseagreen;
+    }
+
+/* if we make span into div... we can do it.. we should do it using display:div ie display:block(for block elements) if dispaly:span then its an display as inline  */
+    </style>
+</head>
+
+<body>
+    <ul >
+    <a href=".HTML TABLES">HTML TABLES</a>
+    <br>
+    <a href="#What is a Table in HTML?">What is a Table in HTML?</a> 
+    <br>
+    <a href="#To create a table in HTML">To create a table in HTML</a>
+    <br>
+    <a href="#How to Add a Table Heading in HTML">How to Add a Table Heading in HTML</a>
+    <br>
+    <a href="#contact"></a>
+</ul>
+ <div class="box1"> <h2>HTML TABLES</h2>
+<p>When you're building a project that needs to represent data visually, you will need a good way to display the information so it's easy to read and understand.
+
+    Now, depending on the type of data, you can select between different representation methods using HTML elements.
+    
+    In most cases, tables are more convenient to display large amounts of structured data nicely. That’s why, in this article, we are going to learn how to use tables in HTML and then how to style them.</p></div>
+
+    <h2 id="What is a Table in HTML?">What is a Table in HTML?</h2>
+   <p> A table is a representation of data arranged in rows and columns. Really, it's more like a spreadsheet. In HTML, with the help of tables, you can arrange data like images, text, links and so on into rows and columns of cells.
+    
+    The use of tables in the web has become more popular recently because of the amazing HTML table tags that make it easier to create and design them.</p>
+    
+    <h2> To create a table in HTML</h2> <p> you will need to use tags. </p> The most important one is the <b> <table> tag which is the main container of the table. It shows where the table will begin and where it ends.
+    
+    Common HTML Table tags
+    Other tags include:
+    
+    <tr> - represents rows
+    <td> - used to create data cells
+    <th> - used to add table headings
+    <caption> - used to insert captions
+    <thead> - adds a separate header to the table
+    <tbody> - shows the main body of the table
+    <tfoot> - creates a separate footer for the table </b>
+     <h2>HTML Table Syntax:</h2>
+    <table border="2">
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+      </tr>
+      <tr>
+        <td>Cell 4</td>
+        <td>Cell 5</td>
+        <td>Cell 6</td>
+      </tr>
+    </table>
+    <br>
+    <h3>uotput</h3><br>
+    Cell 1	Cell 2	Cell 3
+    Cell 4	Cell 5	Cell 6
+    <p>
+    Now that you have an understanding of what an HTML table is all about and how you can create it, let's go ahead and see how we can make use of these tags to create tables with more features.</p>
+    
+    <h2 id="How to Add a Table Heading in HTML">How to Add a Table Heading in HTML</h2>
+    <p>The <th>is used to add headings to tables. In basic designs the table heading will always take the top row, meaning we will have the <th> declared in our first table row followed by the actual data in the table. By default the text passed in the Heading is centered and Bold.</p>
+    
+    <h4> An example with use of <th> </h4>
+    
+    <table border="2">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email Address</th>
+      </tr>
+      <tr>
+       <td>Hillary</td>
+       <td>Nyakundi</td>
+       <td>tables@mail.com</td>
+      </tr>
+      <tr>
+        <td>Lary</td>
+        <td>Mak</td>
+        <td>developer@mail.com</td>
+      </tr>
+    </table>
+    <br>
+    <b> <a href="tel:+91 9875964870" id="contact">Call Me</a></b>
+    <br>
+    <b> <a href="mailto:aishwaryams2301@gmail.com" id="contact">Email</a></b>
+
+    <h1> <abbr title="Name"> Aishwarya</abbr></h1>
+    <p tooltip="Batch">Web Dev</p>
+    <img src="https://source.unsplash.com/random/?web development"
+    alt="web dev img" title="website"> 
+    <!-- tooltip can be replcaed by title to give a dunction of contextual explaniton on hovering on it -->
+    <p title="Batch">Web Dev</p> 
+
+    <label for="password" title="enter your password">Password:</label>
+    <input aria-describedby="passwordrules" id="password" type="password" />
+    <div role="tooltip" id="passwordrules">
+      <p>Password Rules:</p>
+      <ul>
+        <li>Minimum of 8 characters</li>
+        <li>
+          Include at least one lowercase letter, one uppercase letter, one number
+          and one special character
+        </li>
+        <li>Unique to this website</li>
+      </ul>
+    </div>
+
+
+    
+</body>
+
+<br>
+<hr>
+
