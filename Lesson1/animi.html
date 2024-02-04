@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+        .container{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+        border: 5px solid black;
+        }
+
+        .box{
+        width: 80px;
+        height: 80px;
+        background-color: blue;
+        border-radius: 50%;
+        border: 2px solid black;
+        margin: 20px;
+        animation-name: ball;
+        position: relative;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+        animation-timing-function: ease;
+        animation-direction:alternate-reverse;
+        animation-fill-mode: both ;
+        }
+
+        .box2{
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 50%;
+        border: 2px solid black;
+        margin: 20px;
+        position: relative;
+        animation-name: ball2;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-delay: 2s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+
+
+    }
+
+    .box3{
+        width: 80px;
+        height: 80px;
+        background-color: rgb(29, 255, 47);
+        border-radius: 50%;
+        border: 2px solid black;
+        margin: 20px;
+        position: relative;
+        animation-name: ball3;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-delay: 2s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+
+
+    }
+        @keyframes ball {
+            from { 
+            top: 30;
+            left: 0;
+            }
+            to {
+            top: 80;
+            left: 100vw;
+            }
+        }
+
+        @keyframes ball2 {
+            0% { 
+            top: 10vh;
+            left: 30vw;
+            }
+            25%{
+            top: 30vh;
+            left: 60vw;
+            }
+            50%{
+            top: 70vh;
+            left: 0vw;
+            }
+            100%{
+            top: 10vh;
+            left: 70vw;
+            }
+        }
+        @keyframes ball3 {
+            0% { 
+            top: 30vh;
+            left: 10vw;
+            }
+            25%{
+            top: 80vh;
+            left: 10vw;
+            }
+            50%{
+            top: 10vh;
+            left: 70vw;
+            }
+            100%{
+            top: 50vh;
+            left: 30vw;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+
+    </div>
+</body>
+</html>
