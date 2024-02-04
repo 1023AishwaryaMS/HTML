@@ -1,0 +1,37 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+
+.container{
+background-color: tan;
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box{
+width: 260px;
+height: 360px;
+/* padding: 5px; */
+border: 1px solid white;
+border-radius: 10px;
+background-color: whitesmoke;
+}
+
+#img{
+width: 240px;
+height: 240px;
+margin: 10px;
+padding: 5px;
+
+}
+
+.box2{
+padding: 9px;
+font-size: small;
+}
